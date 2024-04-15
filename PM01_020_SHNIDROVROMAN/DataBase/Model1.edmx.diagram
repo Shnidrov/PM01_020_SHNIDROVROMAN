@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f8ca39dd64f1469284fa447e814cc2ef" Name="Diagram1">
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.City" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.Country" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.Event" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.Gender" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.Jures" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.Moderators" Width="1.5" PointX="6" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.Organizators" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.Parcipiants" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_shnidrov_020Model.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Event_City1" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Jures_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Moderators_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Organizators_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Parcipiants_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Jures_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Moderators_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Organizators_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_shnidrov_020Model.FK_Parcipiants_Gender" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
